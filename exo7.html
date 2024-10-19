@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercices sur les Adjectifs et les Adverbes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .exercise {
+            margin-bottom: 30px;
+        }
+
+        ol {
+            list-style-position: inside;
+            padding-left: 0;
+        }
+
+        input[type="text"] {
+            width: 100%; /* Adapté pour être réactif */
+            padding: 5px;
+            margin-top: 5px;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px; /* Taille de police ajustée */
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #result {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .correct {
+            color: green;
+        }
+
+        .incorrect {
+            color: red;
+        }
+
+        @media (max-width: 600px) {
+            /* Styles pour les petits écrans */
+            h1 {
+                font-size: 1.5em; /* Ajustement de la taille de la police */
+            }
+
+            input[type="text"] {
+                width: calc(100% - 12px); /* Prend en compte le padding */
+            }
+
+            button {
+                width: 100%; /* Bouton pleine largeur */
+            }
+
+            .exercise {
+                margin-bottom: 20px; /* Espace réduit entre les exercices */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Exercices sur les Adjectifs et les Adverbes</h1>
+
+        <form id="exercise-form">
+            <!-- Exercice d'Adjectifs -->
+            <div class="exercise">
+                <h2>Exercice 1 : Adjectifs</h2>
+                <p>Remplissez les blancs avec la bonne forme de l'adjectif :</p>
+                <ol>
+                    <li>Il est une personne très <input type="text" name="answer1"> (grand).</li>
+                    <li>Le temps est <input type="text" name="answer2"> (froid) aujourd'hui qu'hier.</li>
+                    <li>C'était le <input type="text" name="answer3"> (bon) film que j'ai vu.</li>
+                    <li>Cette route est beaucoup <input type="text" name="answer4"> (sûr) que l'autre.</li>
+                    <li>Le livre est <input type="text" name="answer5"> (intéressant) que le film.</li>
+                    <li>Il a donné un discours <input type="text" name="answer6"> (drôle) au mariage.</li>
+                    <li>Plus il devient <input type="text" name="answer7"> (vieux), plus il devient <input type="text" name="answer8"> (sage).</li>
+                    <li>Elle est la <input type="text" name="answer9"> (belle) fille de la classe.</li>
+                    <li>La situation est <input type="text" name="answer10"> (mauvais) que je ne m'y attendais.</li>
+                </ol>
+            </div>
+
+            <!-- Exercice d'Adverbes -->
+            <div class="exercise">
+                <h2>Exercice 2 : Adverbes</h2>
+                <p>Remplissez les blancs avec le bon adverbe :</p>
+                <ol>
+                    <li>Elle chante très <input type="text" name="answer11"> (beau).</li>
+                    <li>Il a couru <input type="text" name="answer12"> (vite) pour attraper le bus.</li>
+                    <li>Ils travaillent <input type="text" name="answer13"> (dur) pour finir le projet à temps.</li>
+                    <li>Le professeur a parlé <input type="text" name="answer14"> (clairement) pour que tout le monde puisse comprendre.</li>
+                    <li>L'enfant a ri <input type="text" name="answer15"> (heureux) au clown.</li>
+                    <li>Elle conduit <input type="text" name="answer16"> (prudemment) en ville.</li>
+                    <li>Le train est arrivé <input type="text" name="answer17"> (tard) aujourd'hui.</li>
+                    <li>Il a répondu à la question <input type="text" name="answer18"> (correct).</li>
+                    <li>L'athlète a performé <input type="text" name="answer19"> (étonnant) dans la compétition.</li>
+                    <li>Le bébé dort <input type="text" name="answer20"> (paisiblement) dans le berceau.</li>
+                </ol>
+            </div>
+
+            <!-- Exercices mélangés Adjectifs et Adverbes -->
+            <div class="exercise">
+                <h2>Exercice 3 : Adjectifs et Adverbes</h2>
+                <p>Choisissez d'utiliser un adjectif ou un adverbe dans les blancs :</p>
+                <ol>
+                    <li>Il court <input type="text" name="answer21"> (rapide/rapidement) le matin.</li>
+                    <li>Elle est une élève <input type="text" name="answer22"> (bon/bien).</li>
+                    <li>La soupe sent <input type="text" name="answer23"> (beau/bien).</li>
+                    <li>Ils ont performé <input type="text" name="answer24"> (mauvais/mal) lors du concert.</li>
+                    <li>Il a parlé <input type="text" name="answer25"> (poli/poliment) aux invités.</li>
+                    <li>Ceci est une peinture <input type="text" name="answer26"> (beau/bien). </li>
+                    <li>Elle a dansé <input type="text" name="answer27"> (gracieux/gracieusement) à la fête.</li>
+                    <li>L'examen était <input type="text" name="answer28"> (facile/facilement) que prévu.</li>
+                    <li>Il a l'air <input type="text" name="answer29"> (en colère/en colère) tout le temps.</li>
+                    <li>Les enfants ont joué <input type="text" name="answer30"> (heureux/heureusement) dans le jardin.</li>
+                </ol>
+            </div>
+
+            <button type="button" onclick="checkAnswers()">Soumettre</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script>
+        function checkAnswers() {
+            const answers = {
+                // Adjectifs
+                answer1: "grand",
+                answer2: "plus froid",
+                answer3: "meilleur",
+                answer4: "plus sûr",
+                answer5: "plus intéressant",
+                answer6: "drôle",
+                answer7: "plus vieux",
+                answer8: "plus sage",
+                answer9: "la plus belle",
+                answer10: "pire",
+                
+                // Adverbes
+                answer11: "beau",
+                answer12: "vite",
+                answer13: "dur",
+                answer14: "clairement",
+                answer15: "heureux",
+                answer16: "prudemment",
+                answer17: "tard",
+                answer18: "correctement",
+                answer19: "étonnamment",
+                answer20: "paisiblement",
+
+                // Mélange d'Adjectifs et d'Adverbes
+                answer21: "rapidement",
+                answer22: "bonne",
+                answer23: "bien",
+                answer24: "mal",
+                answer25: "poliment",
+                answer26: "belle",
+                answer27: "gracieusement",
+                answer28: "plus facile",
+                answer29: "en colère",
+                answer30: "heureusement"
+            };
+
+            let form = document.getElementById('exercise-form');
+            let result = document.getElementById('result');
+            let score = 0;
+            let total = Object.keys(answers).length;
+
+            result.innerHTML = ""; // Efface les résultats précédents
+
+            // Vérifie les réponses
+            Object.keys(answers).forEach((key, index) => {
+                let userAnswer = form[key].value.trim().toLowerCase();
+                let correctAnswer = answers[key].toLowerCase();
+
+                // Crée un message de retour
+                let feedback = document.createElement('p');
+                feedback.innerHTML = `Question ${index + 1}: Votre réponse : "${userAnswer}" - `;
+
+                if (userAnswer === correctAnswer) {
+                    score++;
+                    feedback.classList.add('correct');
+                    feedback.innerHTML += 'Correct !';
+                } else {
+                    feedback.classList.add('incorrect');
+                    feedback.innerHTML += `Incorrect. Réponse correcte : "${correctAnswer}"`;
+                }
+
+                result.appendChild(feedback);
+            });
+
+            let finalScore = document.createElement('h3');
+            finalScore.innerHTML = `Vous avez eu ${score} sur ${total} corrects.`;
+            result.appendChild(finalScore);
+        }
+    </script>
+</body>
+</html>

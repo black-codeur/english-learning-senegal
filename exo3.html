@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active and Passive Voice Exercises</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Espacement entre les exercices */
+        }
+
+        .exercise {
+            margin-bottom: 30px;
+        }
+
+        .exercise h2 {
+            color: #4CAF50;
+        }
+
+        .question {
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column; /* Aligne le label au-dessus de l'input */
+        }
+
+        .question input {
+            width: 100%;
+            padding: 12px; /* Augmente l'espace à l'intérieur des champs */
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Inclut padding et border dans la largeur totale */
+        }
+
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s; /* Transition douce pour le hover */
+        }
+
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+
+        .result {
+            display: none;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #dff0d8;
+            border: 1px solid #d0e9c6;
+            border-radius: 4px;
+        }
+
+        .result p {
+            margin: 5px 0; /* Espacement entre les réponses */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px; /* Réduit le padding sur les petits écrans */
+            }
+
+            .submit-btn {
+                font-size: 14px; /* Taille de police légèrement réduite */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Exercises on Active and Passive Voice</h1>
+
+    <div class="container">
+        <!-- Exercise 1 -->
+        <div class="exercise">
+            <h2>Exercise 1: Convert the following sentences to the passive voice</h2>
+            <div class="question">
+                <label for="q1-1">1. The teacher corrects the tests.</label>
+                <input type="text" id="q1-1" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q1-2">2. The chef prepares a meal.</label>
+                <input type="text" id="q1-2" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q1-3">3. The nurse takes care of the patients.</label>
+                <input type="text" id="q1-3" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q1-4">4. The dog chases the cat.</label>
+                <input type="text" id="q1-4" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q1-5">5. The students read the book.</label>
+                <input type="text" id="q1-5" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q1-6">6. The technician repairs the computer.</label>
+                <input type="text" id="q1-6" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q1-7">7. The children decorate the room.</label>
+                <input type="text" id="q1-7" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q1-8">8. The police arrest the suspect.</label>
+                <input type="text" id="q1-8" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q1-9">9. The students clean the classroom.</label>
+                <input type="text" id="q1-9" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q1-10">10. The musicians play a new song.</label>
+                <input type="text" id="q1-10" placeholder="Enter your answer">
+            </div>
+        </div>
+
+        <!-- Exercise 2 -->
+        <div class="exercise">
+            <h2>Exercise 2: Convert the following sentences to the active voice</h2>
+            <div class="question">
+                <label for="q2-1">1. The letter was sent by Mary.</label>
+                <input type="text" id="q2-1" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q2-2">2. The house was built by the architect.</label>
+                <input type="text" id="q2-2" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q2-3">3. The film was directed by that famous director.</label>
+                <input type="text" id="q2-3" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q2-4">4. The project was approved by the board.</label>
+                <input type="text" id="q2-4" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q2-5">5. The cake was baked by my mother.</label>
+                <input type="text" id="q2-5" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q2-6">6. The play was written by Shakespeare.</label>
+                <input type="text" id="q2-6" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q2-7">7. The painting was made by an unknown artist.</label>
+                <input type="text" id="q2-7" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q2-8">8. The contract was signed by the manager.</label>
+                <input type="text" id="q2-8" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q2-9">9. The decisions were made by the committee.</label>
+                <input type="text" id="q2-9" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q2-10">10. The book was published by a small publisher.</label>
+                <input type="text" id="q2-10" placeholder="Enter your answer">
+            </div>
+        </div>
+
+        <!-- Exercise 3 -->
+        <div class="exercise">
+            <h2>Exercise 3: Convert the following sentences to the passive voice</h2>
+            <div class="question">
+                <label for="q3-1">1. The chef prepares the meal.</label>
+                <input type="text" id="q3-1" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q3-2">2. The student writes a report.</label>
+                <input type="text" id="q3-2" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q3-3">3. The dog bit the mailman.</label>
+                <input type="text" id="q3-3" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q3-4">4. The artist created the sculpture.</label>
+                <input type="text" id="q3-4" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q3-5">5. The team won the championship.</label>
+                <input type="text" id="q3-5" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q3-6">6. The teacher teaches the students.</label>
+                <input type="text" id="q3-6" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q3-7">7. The manager makes the decisions.</label>
+                <input type="text" id="q3-7" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q3-8">8. The kids build the sandcastle.</label>
+                <input type="text" id="q3-8" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q3-9">9. The police caught the thief.</label>
+                <input type="text" id="q3-9" placeholder="Enter your answer">
+            </div>
+            <div class="question">
+                <label for="q3-10">10. The doctor examines the patient.</label>
+                <input type="text" id="q3-10" placeholder="Enter your answer">
+            </div>
+        </div>
+
+        <button class="submit-btn" onclick="showResults()">Submit Answers</button>
+        
+        <div class="result" id="results"></div>
+    </div>
+
+    <script>
+        function showResults() {
+            const answers = [
+                // Exercise 1 Answers
+                ["The tests are corrected by the teacher.", "The meal is prepared by the chef.", "The patients are taken care of by the nurse.", "The cat is chased by the dog.", "The book is read by the students.", "The computer is repaired by the technician.", "The room is decorated by the children.", "The suspect is arrested by the police.", "The classroom is cleaned by the students.", "A new song is played by the musicians."],
+                // Exercise 2 Answers
+                ["Mary sent the letter.", "The architect built the house.", "That famous director directed the film.", "The board approved the project.", "My mother baked the cake.", "Shakespeare wrote the play.", "An unknown artist made the painting.", "The manager signed the contract.", "The committee made the decisions.", "A small publisher published the book."],
+                // Exercise 3 Answers
+                ["The meal is prepared by the chef.", "A report is written by the student.", "The mailman was bitten by the dog.", "The sculpture was created by the artist.", "The championship was won by the team.", "The students are taught by the teacher.", "The decisions are made by the manager.", "The sandcastle was built by the kids.", "The thief was caught by the police.", "The patient is examined by the doctor."]
+            ];
+
+            let resultsText = '<h2>Results:</h2>';
+            const inputs = document.querySelectorAll('.question input');
+            let correctCount = 0;
+
+            inputs.forEach((input, index) => {
+                const exerciseIndex = Math.floor(index / 10); // Determine exercise number (0, 1, or 2)
+                const questionIndex = index % 10; // Determine question number (0 to 9)
+                const userAnswer = input.value.trim();
+                const correctAnswer = answers[exerciseIndex][questionIndex];
+
+                resultsText += `<p>${userAnswer === correctAnswer ? "Correct!" : "Incorrect!"} <strong>Your answer: ${userAnswer}</strong> <br> <strong>Correct answer: ${correctAnswer}</strong></p>`;
+                if (userAnswer === correctAnswer) {
+                    correctCount++;
+                }
+            });
+
+            resultsText += `<p><strong>You got ${correctCount} out of ${inputs.length} correct!</strong></p>`;
+            document.getElementById('results').innerHTML = resultsText;
+            document.getElementById('results').style.display = 'block'; // Show results
+        }
+    </script>
+</body>
+</html>

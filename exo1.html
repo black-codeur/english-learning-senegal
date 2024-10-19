@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercices de Conjugaison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .exercice {
+            margin: 20px 0;
+        }
+        .question {
+            margin: 10px 0;
+        }
+        input[type="text"] {
+            width: 100%; /* Full width on all screens */
+            padding: 8px;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin: 15px 0;
+            padding: 10px;
+            background-color: #e0e0e0;
+            border-radius: 4px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em; /* Smaller header on mobile */
+            }
+            h2 {
+                font-size: 1.5em; /* Smaller sub-header on mobile */
+            }
+            input[type="text"] {
+                width: 100%; /* Keep full width */
+            }
+            .container {
+                padding: 15px; /* Less padding on mobile */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .submit-btn {
+                font-size: 14px; /* Smaller button text */
+                padding: 12px; /* Smaller button padding */
+            }
+            h1 {
+                font-size: 1.5em; /* Even smaller header on very small screens */
+            }
+            h2 {
+                font-size: 1.2em; /* Even smaller sub-header on very small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exercices de Conjugaison</h1>
+        <form id="exercise-form">
+            <!-- Exercice 1 -->
+            <div class="exercice">
+                <h2>Exercice 1</h2>
+                <div class="question">
+                    <label>1. I (to be) very happy yesterday.</label><br>
+                    <input type="text" name="q1">
+                </div>
+                <div class="question">
+                    <label>2. They (to go) to the party last night.</label><br>
+                    <input type="text" name="q2">
+                </div>
+                <div class="question">
+                    <label>3. She (to write) a letter to her friend last week.</label><br>
+                    <input type="text" name="q3">
+                </div>
+                <div class="question">
+                    <label>4. We (to study) for the exam all day.</label><br>
+                    <input type="text" name="q4">
+                </div>
+                <div class="question">
+                    <label>5. He (to eat) breakfast early this morning.</label><br>
+                    <input type="text" name="q5">
+                </div>
+                <div class="question">
+                    <label>6. I (to see) him yesterday.</label><br>
+                    <input type="text" name="q6">
+                </div>
+                <div class="question">
+                    <label>7. They (to live) in France for 5 years.</label><br>
+                    <input type="text" name="q7">
+                </div>
+                <div class="question">
+                    <label>8. She (to visit) London last summer.</label><br>
+                    <input type="text" name="q8">
+                </div>
+                <div class="question">
+                    <label>9. We (to learn) English for three years.</label><br>
+                    <input type="text" name="q9">
+                </div>
+                <div class="question">
+                    <label>10. He (to drink) coffee this morning.</label><br>
+                    <input type="text" name="q10">
+                </div>
+            </div>
+
+            <!-- Exercice 2 -->
+            <div class="exercice">
+                <h2>Exercice 2</h2>
+                <div class="question">
+                    <label>1. You (to be) late to school yesterday.</label><br>
+                    <input type="text" name="q11">
+                </div>
+                <div class="question">
+                    <label>2. They (to travel) to Spain last summer.</label><br>
+                    <input type="text" name="q12">
+                </div>
+                <div class="question">
+                    <label>3. She (to paint) a picture last weekend.</label><br>
+                    <input type="text" name="q13">
+                </div>
+                <div class="question">
+                    <label>4. We (to prepare) dinner together.</label><br>
+                    <input type="text" name="q14">
+                </div>
+                <div class="question">
+                    <label>5. He (to fix) his bike yesterday.</label><br>
+                    <input type="text" name="q15">
+                </div>
+                <div class="question">
+                    <label>6. I (to meet) a friend after work.</label><br>
+                    <input type="text" name="q16">
+                </div>
+                <div class="question">
+                    <label>7. They (to stay) at a hotel last night.</label><br>
+                    <input type="text" name="q17">
+                </div>
+                <div class="question">
+                    <label>8. She (to dance) at the party.</label><br>
+                    <input type="text" name="q18">
+                </div>
+                <div class="question">
+                    <label>9. We (to walk) in the park.</label><br>
+                    <input type="text" name="q19">
+                </div>
+                <div class="question">
+                    <label>10. He (to drive) his car yesterday.</label><br>
+                    <input type="text" name="q20">
+                </div>
+            </div>
+
+            <!-- Exercice 3 -->
+            <div class="exercice">
+                <h2>Exercice 3</h2>
+                <div class="question">
+                    <label>1. I (to watch) a movie last night.</label><br>
+                    <input type="text" name="q21">
+                </div>
+                <div class="question">
+                    <label>2. They (to clean) their house yesterday.</label><br>
+                    <input type="text" name="q22">
+                </div>
+                <div class="question">
+                    <label>3. She (to read) a book last evening.</label><br>
+                    <input type="text" name="q23">
+                </div>
+                <div class="question">
+                    <label>4. We (to plan) a trip last month.</label><br>
+                    <input type="text" name="q24">
+                </div>
+                <div class="question">
+                    <label>5. He (to work) late last night.</label><br>
+                    <input type="text" name="q25">
+                </div>
+                <div class="question">
+                    <label>6. I (to call) my parents yesterday.</label><br>
+                    <input type="text" name="q26">
+                </div>
+                <div class="question">
+                    <label>7. They (to help) their neighbors.</label><br>
+                    <input type="text" name="q27">
+                </div>
+                <div class="question">
+                    <label>8. She (to cook) dinner last evening.</label><br>
+                    <input type="text" name="q28">
+                </div>
+                <div class="question">
+                    <label>9. We (to swim) in the pool last summer.</label><br>
+                    <input type="text" name="q29">
+                </div>
+                <div class="question">
+                    <label>10. He (to play) soccer last weekend.</label><br>
+                    <input type="text" name="q30">
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">Soumettre</button>
+        </form>
+
+        <div class="result" id="results"></div>
+    </div>
+
+    <script>
+        const correctAnswers = {
+            q1: "was",
+            q2: "went",
+            q3: "wrote",
+            q4: "studied",
+            q5: "ate",
+            q6: "saw",
+            q7: "have lived",
+            q8: "visited",
+            q9: "have learned",
+            q10: "drank",
+            q11: "were",
+            q12: "traveled",
+            q13: "painted",
+            q14: "prepared",
+            q15: "fixed",
+            q16: "met",
+            q17: "stayed",
+            q18: "danced",
+            q19: "walked",
+            q20: "drove",
+            q21: "watched",
+            q22: "cleaned",
+            q23: "read",
+            q24: "planned",
+            q25: "worked",
+            q26: "called",
+            q27: "helped",
+            q28: "cooked",
+            q29: "swam",
+            q30: "played"
+        };
+
+        const form = document.getElementById('exercise-form');
+
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+            let userAnswers = {};
+            for (const key in correctAnswers) {
+                userAnswers[key] = form.elements[key].value.trim();
+            }
+
+            let correctCount = 0;
+            for (const key in correctAnswers) {
+                if (userAnswers[key] === correctAnswers[key]) {
+                    correctCount++;
+                }
+            }
+
+            let resultsHtml = `<h3>Résultats</h3><p>Vous avez obtenu <strong>${correctCount}</strong> sur <strong>${Object.keys(correctAnswers).length}</strong>.</p>`;
+            document.getElementById('results').innerHTML = resultsHtml;
+        });
+    </script>
+</body>
+</html>
